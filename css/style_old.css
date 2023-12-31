@@ -3,18 +3,9 @@
 	padding: 0;
 }
 
-a, button {
-	all: unset;
-}
-
+a,
 button {
-	background: none;
-	border: none;
-	padding: 0;
-}
-
-a {
-	cursor: pointer;
+	all: unset;
 }
 
 img {
@@ -55,7 +46,6 @@ body {
 
 .nav__right {
 	display: flex;
-	margin: 26px 0 20px 0;
 }
 
 .nav__lefticons {
@@ -385,7 +375,7 @@ background: rgba(58, 56, 56, 0.86); */
 
 /* Это центровка текста и иконки */
 /* Вынес в отдельный блок, что-бы не путаться */
-/* .mask {
+.mask {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -415,7 +405,7 @@ background: rgba(58, 56, 56, 0.86); */
 
 .mask:hover {
 	opacity: 1;
-} */
+}
 
 .cart__link {
 	display: flex;
@@ -424,74 +414,26 @@ background: rgba(58, 56, 56, 0.86); */
 	border: 1px solid #FFFFFF;
 }
 
+.supercard {
+	background: blue;
+	display: flex;
+	flex-direction: column;
+}
 
 .icon {
 	display: inline-block;
 	mask-image: url(../img/addToCart.svg);
-	mask-size: contain;
-	width: 26px;
-	height: 26px;
-	background: white;
-	margin-right: 11px;
+	mask-size: cover;
+	width: 40px;
+	height: 40px;
+	background: green;
 }
 
 .goods__image {
 	position: relative;
 }
 
-
-
-.card__button {
-	display: flex;
-	align-items: center;
-	padding: 15px;
-	border: 2px solid white;
-	margin: auto;
-}
-
-.card__button:hover {
-	box-shadow: 0 0 5px #fff;
-}
-
-.card__button:hover .icon {
-	background: #F16D7F;
-}
-
-.card__add {
-	color: white;
-}
-
-
-
-.megacard__content {
-	background: #F8F8F8;
-	padding: 20px;
-}
-
-.probe__image {
-	position: relative;
-}
-
-.goods__card .card__content {
-	width: 100%;
-}
-
-.viewbox__card {
-	background: #F8F8F8;
-}
-
-.viewbox__top {
-	position: relative;
-}
-
-.viewbox__image {
-	width: 100%;
-}
-
-
-
 .button__container {
-	cursor: pointer;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -499,19 +441,21 @@ background: rgba(58, 56, 56, 0.86); */
 	left: 0;
 	display: flex;
 	background: rgba(0, 0, 0, .5);
-	opacity: 0.5;
+	opacity: .8;
 }
 
 .button__container:hover {
 	opacity: 1;
-	transition: 1s;
-
 }
 
-.pack {
-	display: grid;
-	gap: 30px;
-	grid-template-columns: repeat(3, 1fr);
+.card__button {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	border: 2px solid red;
+	margin: auto;
 }
 
-
+.card__add {
+	color: white;
+}
