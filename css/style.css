@@ -27,22 +27,22 @@ img {
 }
 
 .info:after {
-    content: "5";
-    position:  absolute;
-    top: -8px;
+	content: "5";
+	position: absolute;
+	top: -8px;
 	right: -9px;
-    
-    width:     19px;
-    height:    19px;
-    
-    background: #F16D7F;
-    color:      white;
-    
-    font-size:  12px;
-    text-align: center;
-    line-height: 20px;
-    
-    border-radius: 10px;
+
+	width: 19px;
+	height: 19px;
+
+	background: #F16D7F;
+	color: white;
+
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+
+	border-radius: 10px;
 }
 
 body {
@@ -329,13 +329,13 @@ body {
 		width: 736px;
 		margin: 0 auto;
 	}
-	
+
 	.nav__container {
 		display: flex;
 		justify-content: space-between;
 		width: 704px;
 	}
-	
+
 	.brand__img {
 		width: 50%;
 	}
@@ -345,7 +345,7 @@ body {
 		display: flex;
 		padding-left: 62px;
 	}
-	
+
 	.logo__header {
 		font-size: 44px;
 	}
@@ -357,16 +357,16 @@ body {
 	.logo__rectangle {
 		height: 100%;
 	}
-	
+
 	.overview {
 		margin-top: 65px;
 		margin-bottom: 96px;
 	}
-	
+
 	.overview__card {
 		padding: 59px 0;
 	}
-	
+
 	.pack {
 		gap: 16px;
 		grid-template-columns: repeat(2, 1fr);
